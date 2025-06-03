@@ -1,0 +1,80 @@
+body{
+    padding: 30px ;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #4A5A6A;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #4A5A6A;
+}
+p{
+    color: #696969;
+}
+#box{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+span{
+    color: whitesmoke;
+}
+#fname,
+#lname{
+    border: black solid 1px;
+    padding: 10px;
+    width: 138px;
+}
+#mail,
+#pswrd,
+#cnfrmpswrd{
+    padding: 10px;
+    border: black solid 1px;
+    width: 320px;
+}
+#checkbox{
+    height: 20px;
+    width: 20px;
+    margin-left: -33px;
+    margin-bottom:9px;
+    vertical-align: middle;
+    color: #4A5A6A;
+}
+#link{
+    color: rgb(111, 165, 31);
+    text-decoration-line: none;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+}
+#signup{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+button{
+    width: 340px;
+    height: 40px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    background-color: rgb(101, 202, 101);
+    border: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;   
+}
+button:active{
+    background-color: green;
+    box-shadow: 1px 1px 1px 1px #2b4f2e;
+    transform: translate();
+}
